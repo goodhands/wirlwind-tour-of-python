@@ -128,3 +128,6 @@ print(x == y) # True
 
 #Type casting an int to float
 float(1) #1.0
+
+#floating point precision is limited:
+0.1 + 0.2 == 0.3 #False
