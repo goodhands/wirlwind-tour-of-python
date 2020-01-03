@@ -131,3 +131,12 @@ float(1) #1.0
 
 #floating point precision is limited:
 0.1 + 0.2 == 0.3 #False
+
+#Complex Numbers
+c = 3 + 4j #Imaginary (or Complex) numbers are denoted by J
+c.real #3
+c.imag #4.0
+
+c.conjugate() #(3-4j)
+
+abs(c)  #magintude of c => sqrt(c.real ** 2 + c.imag ** 2) note: sqrt isn't a python method
